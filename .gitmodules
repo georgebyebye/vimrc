@@ -88,7 +88,4 @@
 [submodule "bundle/snipmate-snippets"]
 	path = bundle/snipmate-snippets
 	url = git://github.com/scrooloose/snipmate-snippets.git
-[submodule "bundle/pyflakes-vim"]
-        path = bundle/pyflakes-vim
-        url = https://github.com/kevinw/pyflakes-vim.git
 
