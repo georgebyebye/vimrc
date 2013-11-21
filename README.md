@@ -23,7 +23,7 @@ MANUALLY INSTALL
 
         git clone git://github.com/vgod/vimrc.git ~/.vim
         cd ~/.vim
-        git submodule update --init
+        git submodule update --init --recursive
 
 2. Install ~/.vimrc and ~/.gvimrc
 
@@ -43,7 +43,7 @@ MANUALLY INSTALL ON WINDOWS
         cd C:\Program Files\Vim   (or your installed path to Vim)
         rmdir /s vimfiles         (This deletes your old vim configurations. If you want to keep it, use move instead of rmdir.)
         git clone git://github.com/vgod/vimrc.git vimfiles
-        git submodule update --init
+        git submodule update --init --recursive
 
 2. Install vimrc. Add the following line at the end of C:\Program Files\Vim\vimrc.
 
